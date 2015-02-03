@@ -1,0 +1,89 @@
+@import "src/bonnet/scss/_variables.scss";
+
+#menu {
+    display: flex;
+    div.logo {
+        background: $red url('../img/ami-logo-white.svg') no-repeat center;
+        width: $menuheight * 1.5;
+        height: $menuheight + ($menuheight * .2);
+        background-size: 75%;
+        margin-bottom:  -$menuheight*.2;
+        z-index: 9999;
+        position: relative;
+        a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    div.nav {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        height: $menuheight;
+        ul {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            li {
+                margin: 0 0 0 24px;
+            }
+            .active {
+                color: $red;
+            }
+        }
+        ul.main-menu {
+            background: $white/1.05;
+            li {
+                a {
+                    font-weight: 700;
+                    transition: color .1s linear;
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+        ul.sub-menu {
+            font-size: .8em;
+        }
+    }
+}
+
+
+
+
+
+
+@media all and (max-width: 414px) {
+
+    #menu {
+        flex-direction: column;
+        div.logo {
+            width: 100%;
+            margin: 0;
+            height: $menuheight/2;
+            background: $red url('../../assets/img/ami-logo-white-mobile.svg') no-repeat center;
+            background-size: contain;
+        }
+        div.nav {
+            ul {
+                justify-content: space-around;
+                li {
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media all and (max-width: 320px) {
+
+    #menu {
+        font-size: .7em;
+    }
+}

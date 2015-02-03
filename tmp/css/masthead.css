@@ -1,0 +1,52 @@
+#masthead {
+  height: 43vw;
+  max-height: 550px;
+  background: #000;
+  color: #f6f6f6; }
+  #masthead div {
+    height: inherit;
+    max-height: inherit;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    #masthead div div.info {
+      background: linear-gradient(to left, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+      width: 75%;
+      padding: 0 3% 0 30%;
+      float: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      #masthead div div.info h1 {
+        font-size: 2.5em;
+        font-weight: 700; }
+      #masthead div div.info p {
+        margin: 16px 0;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.25); }
+      #masthead div div.info a {
+        font-size: .7em;
+        font-weight: 900;
+        background: #c1232c;
+        padding: 8px;
+        border-radius: 1px;
+        display: inline;
+        width: 25%;
+        text-align: center; }
+
+@media all and (max-width: 1024px) {
+  #masthead div {
+    width: 100%;
+    background: #333 !important; }
+    #masthead div div.info {
+      padding: 4%;
+      width: 100%; } }
+@media all and (max-width: 414px) {
+  #masthead {
+    height: auto; }
+    #masthead div {
+      background: #333 !important; }
+      #masthead div div.info h1 {
+        font-size: 2em; } }

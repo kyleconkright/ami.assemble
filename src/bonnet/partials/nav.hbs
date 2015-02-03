@@ -1,0 +1,17 @@
+        <div id="menu">
+            <div class="logo"><a class="home" href="../"></a></div>
+            <div class="nav">
+                <ul class="main-menu">
+
+                    {{#withSort this.pages 'data.order'}}
+                    {{#is this.data.nav 'main'}}
+                    <li {{#if this.isCurrentPage}} class="active"{{/if}}><a href="../{{this.data.slug}}">{{this.data.title}}</a></li>
+                    {{/is}}
+                    {{/withSort}}
+
+                </ul>
+                <ul class="sub-menu">
+                    <li>Call us at 610-544-0571</li>
+                </ul>
+            </div>
+        </div>

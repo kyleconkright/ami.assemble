@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('./package.json'),
 
         sass: {
-            dist: {
+            stage: {
                 files: [{
                     expand: true,
                     cwd: 'src/bonnet/scss',
@@ -23,16 +23,16 @@ module.exports = function (grunt) {
             }
         },
         autoprefixer: {
-            dist: {
+            stage: {
                 files: {
-                    'dist/assets/css/global.css':['tmp/stylemin.css']
+                    'stage/assets/css/global.css':['tmp/stylemin.css']
                 }
             }
         },
         uglify: {
             my_target: {
                 files: {
-                    'dist/assets/js/script.min.js': ['src/bonnet/lib/*.js','src/bonnet/js/*.js']
+                    'stage/assets/js/script.min.js': ['src/bonnet/lib/*.js','src/bonnet/js/*.js']
                 }
             }
         },
@@ -41,7 +41,7 @@ module.exports = function (grunt) {
             dev: {
                 options: {
                     port: 8000,
-                    base: './dist/'
+                    base: './stage'
                 }
             }
         },
@@ -49,21 +49,18 @@ module.exports = function (grunt) {
         /* assemble templating */
         assemble: {
             options: {
-                collections: ['slides', 'posts' ],
                 helpers: './src/bonnet/helpers/**/*.js',
                 layout: 'page.hbs',
                 layoutdir: './src/bonnet/layouts/',
                 partials: './src/bonnet/partials/**/*',
-                assets: './dist/assets/',
-                data: './dist/data/data.json'
+                assets: './stage/assets/',
+                data: './stage/data/data.json'
             },
-            posts: {
-                files: [{
-                    cwd: './src/content/_pages/',
-                    dest: './dist/',
-                    expand: true,
-                    src: '**/*.hbs'
-                }]
+            pages: {
+                cwd: './src/content/_pages/',
+                dest: './stage/',
+                expand: true,
+                src: '**/*.hbs'
             }
         },
         watch: {

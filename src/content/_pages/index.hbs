@@ -2,6 +2,55 @@
 title: "Home"
 slug: "home"
 order: 0
+nav: 'na'
 ---
 
 {{>masthead}}
+
+<div id="content">
+    <div class="holder">
+        <div id="products">
+            <h2><img src="{{assets}}/img/icon-01.png"><br>{{homeContent.0.title}}</h2>
+            <ul>
+            {{# each homeContent.0.list}}
+                <li><h3>{{entry.title}}</h3></li>
+                {{#if entry.more}}
+                    <ul>
+                        {{# each entry.more}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            {{/each}}
+            </ul>
+        </div>
+
+        <div id="services">
+            <h2><img src="{{assets}}/img/icon-02.png"><br>{{homeContent.1.title}}</h2>
+            <ul>
+            {{# each homeContent.1.list}}
+                <li><h3>{{entry.title}}</h3></li>
+                {{#if entry.more}}
+                    <ul>
+                        {{# each entry.more}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            {{/each}}
+            </ul>
+        </div>
+
+        <div id="contact">
+            <h2><img src="{{assets}}/img/icon-03.png"><br>Contact</h2>
+            <h3>Allen Myland, Inc.</h3>
+            <p>515 Abbott Drive</p>
+            <p>Broomall, PA 19008</p>
+            <p>&nbsp;</p>
+            <p><i class="fa fa-phone fa-fw"></i> (610) 544-0571</p>
+            <p><i class="fa fa-print fa-fw"></i> (610) 544-5159</p>
+            <h2 class="interested">Interested in Maintenance? Buying or Selling Equipment?</h2>
+            <a href="#" class="btn">Request a Quote</a>
+        </div>
+    </div><!--.holder-->
+</div><!--#content-->

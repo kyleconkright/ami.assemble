@@ -1,0 +1,145 @@
+{
+    "mainmenu" : [
+        {"title":"Services","href":"services"},
+        {"title":"Inventory","href":"inventory"},
+        {"title":"Industries Supported","href":"industriessupported"},
+        {"title":"Global Reach","href":"globalreach"},
+        {"title":"Why AMI?","href":"about"}
+    ],
+    "submenu" : [
+        {"title":"Equipment Supported","href":"/equipment"},
+        {"title":"Get A Quote","href":"/quote"},
+        {"title":"Join AMI","href":"/join"},
+        {"title":"Contact","href":"/contact"}
+    ],
+    "slide" : [
+        {
+            "src":"image11.jpg",
+            "title":"Services 24/7/365",
+            "copy":"AMI provides customers with comprehensive support and maintenance of data processing equipment. Customers receive outstanding and responsive service at a fraction of the OEM cost.",
+            "href":"#"
+        },
+        {
+            "src":"image06.jpg",
+            "title":"Supported SAN Hardware",
+            "copy":"EMC Symmetrix, EMC Clariion, Hitachi Data Systems, Hitachi Data Systems Thunder/Freedom Series, Hewlett Packard StrorageWorks, SUN/Oracle StorEdge, EMC Connectrix, McData, Brocade.",
+            "href":"#"
+        },
+        {
+            "src":"image10.jpg",
+            "title":"Global Reach",
+            "copy":"AMI supports customers in all 50 states and 12 countries. Our extensive network of partners allows AMI to provide support in over 150 countries worldwide.",
+            "href":"#"
+        },
+        {
+            "src":"image07.jpg",
+            "title":"Why AMI?",
+            "copy":"Customers have 24/7/365 access to AMI’s engineers. A closed loop, time based escalation case tracking process is used to insure that system failures are resolved in a timely manner.",
+            "href":"#"
+        }
+    ],
+    "homeContent" : [
+        {
+            "title":"Products",
+            "icon":"icon-01.png",
+            "list": [
+                {"entry":
+                    {
+                        "title":"VMAX",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"EMC",
+                        "more":["VMAX","DMX3 & DMX4","Symmetrix","CX3 & CX4","Clariion"]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Hitachi HDS",
+                        "more":["USPV","USPVM","USP"]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Hewlett Packard",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"SUN",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"McData",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Brocade",
+                        "more":[]
+                    }
+                }
+            ]
+        },
+        {
+            "title":"Services",
+            "icon":"icon-02.png",
+            "list": [
+                {"entry":
+                    {
+                        "title":"EMC maintenance 24/7/365",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Hitachi maintenance 24/7/365",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Parts sales",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Equipment leasing, sales and purchasing of used equipment",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Configuration changes and upgrades",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Installation and Removal",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Systems evaluation and consultation",
+                        "more":[]
+                    }
+                },
+                {"entry":
+                    {
+                        "title":"Data processing, storage and peripheral maintenance",
+                        "more":[]
+                    }
+                }
+            ]
+        }
+    ]
+}

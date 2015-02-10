@@ -27,6 +27,20 @@ h2 {
   font-size: 1.5em;
   font-weight: 700; }
 
+h3 {
+  font-size: 1.2em;
+  font-weight: 500; }
+
+.btn {
+  font-size: 1.15em;
+  color: #f6f6f6;
+  font-weight: 900;
+  padding: 18.4px 24px;
+  background: #c1232c;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: inline-block; }
+
 #container {
   max-width: 1280px;
   min-height: 800px;

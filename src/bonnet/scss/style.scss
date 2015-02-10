@@ -34,6 +34,25 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.btn {
+    font-size: 1.15em;
+    color: $white;
+    font-weight: 900;
+    padding: $spacefix*1.15 $spacefix*1.5;
+    background: $red;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+//LAYOUT
+
 #container {
     max-width: 1280px;
     min-height: 800px;

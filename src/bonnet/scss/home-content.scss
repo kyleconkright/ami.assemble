@@ -1,0 +1,109 @@
+// VARIABLES
+@import "src/bonnet/scss/_variables.scss";
+
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+    padding: $spacefix*2 0;
+    div.holder {
+        display: flex;
+        div {
+            flex: 1;
+            padding: 0 $spacefix;
+            h2 {
+                text-align: center;
+                margin: 0 0 $spacefix*2;
+                img {
+                    height: 50px;
+                }
+            }
+            ul, h3 {
+                margin: 0 0 $spacefix/2;
+                ul {
+
+                    li {
+                        list-style-type: square;
+                        list-style-position: inside;
+                    }
+                }
+            }
+        }
+        div#services {
+            border: solid white;
+            border-width: 0 1px;
+            ul {
+                padding: 0 0 0 $spacefix;
+                li {
+                    list-style-type: square;
+                }
+            }
+        }
+        div#contact {
+            text-align: center;
+            h2.interested {
+                color: $red;
+                margin: $spacefix 0;
+            }
+        }
+    }
+}
+
+
+//iPad Mini landscape
+@media all and (max-width: 1024px) {
+
+}
+
+
+//iPhone 6
+@media all and (max-width: 414px) {
+
+}
+
+//iPad Mini landscape
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+
+}
+
+
+//iPad Mini Portrait
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6+ landscape
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6+ Portrait
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6 landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6 Portrait
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 5 landscape
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 5 Portrait
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+
+}

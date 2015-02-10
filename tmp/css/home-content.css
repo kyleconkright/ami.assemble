@@ -1,31 +1,39 @@
-#content {
-  width: 80%;
+div#welcome {
+  background: #eeeeee;
+  padding: 48px;
   margin: 0 auto;
-  padding: 32px 0; }
-  #content div.holder {
-    display: flex; }
-    #content div.holder div {
-      flex: 1;
-      padding: 0 16px; }
-      #content div.holder div h2 {
-        text-align: center;
-        margin: 0 0 32px; }
-        #content div.holder div h2 img {
-          height: 50px; }
-      #content div.holder div ul, #content div.holder div h3 {
-        margin: 0 0 8px; }
-        #content div.holder div ul ul li, #content div.holder div h3 ul li {
-          list-style-type: square;
-          list-style-position: inside; }
-    #content div.holder div#services {
-      border: solid white;
-      border-width: 0 1px; }
-      #content div.holder div#services ul {
-        padding: 0 0 0 16px; }
-        #content div.holder div#services ul li {
-          list-style-type: square; }
-    #content div.holder div#contact {
-      text-align: center; }
-      #content div.holder div#contact h2.interested {
-        color: #c1232c;
-        margin: 16px 0; }
+  text-align: center; }
+  div#welcome div.holder {
+    width: 60%;
+    margin: 0 auto; }
+    div#welcome div.holder h1 {
+      margin: 0 0 32px;
+      line-height: 0; }
+
+.content div.holder {
+  display: flex; }
+  .content div.holder div {
+    flex: 1;
+    padding: 0 16px; }
+    .content div.holder div h2 {
+      text-align: center;
+      margin: 0 0 32px; }
+      .content div.holder div h2 img {
+        height: 50px; }
+    .content div.holder div ul, .content div.holder div h3 {
+      margin: 0 0 8px; }
+      .content div.holder div ul ul li, .content div.holder div h3 ul li {
+        list-style-type: square;
+        list-style-position: inside; }
+  .content div.holder div#services {
+    border: solid white;
+    border-width: 0 1px; }
+    .content div.holder div#services ul {
+      padding: 0 0 0 16px; }
+      .content div.holder div#services ul li {
+        list-style-type: square; }
+  .content div.holder div#contact {
+    text-align: center; }
+    .content div.holder div#contact h2.interested {
+      color: #c1232c;
+      margin: 32px 0 16px; }

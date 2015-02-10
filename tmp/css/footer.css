@@ -1,0 +1,22 @@
+footer {
+  background: #26272b;
+  color: #717275;
+  font-size: .8em; }
+  footer div.content {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 8px 0; }
+    footer div.content div.logo {
+      background: url("../img/ami-logo-white-mobile.svg") no-repeat top left;
+      width: 65px;
+      height: 60px;
+      background-size: contain;
+      border-width: 0 1px 0 0;
+      margin: -5px 8px 0;
+      opacity: .35; }
+    footer div.content ul.main-menu {
+      flex: 1; }
+      footer div.content ul.main-menu li {
+        display: inline;
+        margin: 0 8px; }

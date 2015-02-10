@@ -29,18 +29,28 @@ body {
     border-top: $red 2px solid;
 }
 
+h1, h2 {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
 h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
 }
 
 .btn {
     font-size: 1.15em;
+    font-family: Montserrat;
     color: $white;
     font-weight: 900;
     padding: $spacefix*1.15 $spacefix*1.5;
@@ -59,7 +69,8 @@ h3 {
     margin: 0 auto;
 }
 
-footer {
-    background: $dark;
-    min-height: 200px;
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: $spacefix*3 0;
 }

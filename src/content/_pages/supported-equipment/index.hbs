@@ -4,3 +4,21 @@ slug: "supported-equipment"
 nav: "main"
 order: 2
 ---
+
+<div id="supported-equipment" class="content">
+    <div class="holder">
+        {{#each supported-equipment}}
+        <ul class="machine">
+            <h2>{{title}}</h2>
+            {{#each this.entry}}
+            <li>
+                <h3>{{title}}</h3>
+                <ul>
+                {{#if this.list}}{{#each this.list}}<li>{{title}}{{/each}}{{/if}}
+                </ul>
+            </li>
+            {{/each}}
+        </ul>
+        {{/each}}
+    </div><!--.holder-->
+</div><!--.content-->

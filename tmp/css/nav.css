@@ -34,7 +34,8 @@
         #menu div.nav ul.main-menu li a:hover {
           color: #c1232c; }
     #menu div.nav ul.sub-menu {
-      font-size: .8em; }
+      font-size: .8em;
+      background: white; }
 
 @media all and (max-width: 414px) {
   #menu {

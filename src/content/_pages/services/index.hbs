@@ -4,3 +4,19 @@ slug: "services"
 nav: "main"
 order: 1
 ---
+
+<div id="services" class="content">
+    <div class="holder">
+        {{#each services.section}}
+        <article>
+            <h2>{{title}}</h2>
+            <p>{{copy}}</p>
+            {{#each this.entry}}
+            <div>
+                <p><b>{{title}}:</b> {{copy}}</p>
+            </div>
+            {{/each}}
+        </article>
+        {{/each}}
+    </div><!--.holder-->
+</div><!--.content-->

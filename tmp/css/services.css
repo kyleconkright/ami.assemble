@@ -1,0 +1,12 @@
+#services.content .holder {
+  display: flex;
+  flex-wrap: wrap; }
+  #services.content .holder article {
+    width: 50%;
+    padding: 0 4%; }
+    #services.content .holder article h2 {
+      margin: 0 0 16px; }
+    #services.content .holder article p {
+      margin: 0 0 32px; }
+    #services.content .holder article div p b {
+      font-weight: 700; }

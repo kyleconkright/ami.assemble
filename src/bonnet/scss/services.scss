@@ -1,34 +1,26 @@
 // VARIABLES
 @import "src/bonnet/scss/_variables.scss";
 
-div.border {
-    background: linear-gradient(to right, #22ad3c 0%,#2989d8 33%,#7ece29 66%,#7db9e8 100%);
-    height: 4px;
-}
-
-footer {
-    background: $dark;
-    color: #717275;
-    font-size: .8em;
-    div.content {
-        overflow: hidden;
+#services.content {
+    // width: 80%;
+    .holder {
         display: flex;
-        align-items: center;
-        padding: $spacefix/2 0;
-        div.logo {
-            background: url('../img/ami-logo-white-mobile.svg') no-repeat top left;
-            width: 65px;
-            height: 60px;
-            background-size: contain;
-            border-width: 0 1px 0 0;
-            margin: -5px $spacefix/2 0;
-            opacity: .35;
-        }
-        ul.main-menu {
-            flex: 1;
-            li {
-                display: inline;
-                margin: 0 $spacefix/2;
+        flex-wrap: wrap;
+        article {
+            width: 50%;
+            padding: 0 $space*2;
+            h2 {
+                margin: 0 0 $spacefix;
+            }
+            p {
+                margin: 0 0 $spacefix*2;
+            }
+            div {
+                p {
+                    b {
+                        font-weight: 700;
+                    }
+                }
             }
         }
     }

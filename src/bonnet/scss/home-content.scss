@@ -1,7 +1,6 @@
 // VARIABLES
 @import "src/bonnet/scss/_variables.scss";
 
-
 div#welcome {
     background: $light;
     padding: $spacefix*3;
@@ -17,7 +16,7 @@ div#welcome {
     }
 }
 
-.content {
+#home.content {
 
     div.holder {
         display: flex;

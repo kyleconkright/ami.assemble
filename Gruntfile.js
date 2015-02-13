@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 layoutdir: './src/bonnet/layouts/',
                 partials: './src/bonnet/partials/**/*',
                 assets: './stage/assets/',
-                data: './stage/data/data.json'
+                data: './stage/data/*.json'
             },
             pages: {
                 cwd: './src/content/_pages/',

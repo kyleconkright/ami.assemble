@@ -4,3 +4,25 @@ slug: "about"
 nav: "main"
 order: 3
 ---
+
+<div id="about" class="content">
+    <div class="holder">
+        <blockquote>
+            <p class="quote">{{about.quote.copy}}</p>
+            <p class="source"><span>{{about.quote.source}}</span>
+            <span>{{about.quote.role}}</span></p>
+        </blockquote>
+
+        <h1 class="headline">{{about.headline}}</h1>
+
+        <div class="block">
+        {{#each about.section}}
+        <article>
+            <h1>{{title}}</h1>
+            <h2>{{sub}}</h2>
+            <p>{{copy}}</p>
+        </article>
+        {{/each}}
+        </div>
+    </div>
+</div>

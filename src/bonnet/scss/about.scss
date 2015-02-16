@@ -1,0 +1,122 @@
+// VARIABLES
+@import "src/bonnet/scss/_variables.scss";
+
+#about.content {
+
+    .holder {
+
+        blockquote {
+            width: 75%;
+            margin: 0 auto $spacefix*2;
+            padding: 0 0 $spacefix*2;
+            border: solid $lightgray;
+            border-width: 0 0 1px;
+            position: relative;
+            p.quote {
+                font-style: italic;
+                font-family: georgia, serif;
+                font-size: 1.5em;
+                line-height: 1.5em;
+                &:before {
+                    content: "\201C";
+                    position: absolute;
+                    left: -43px;
+                    top: 15px;
+                    color: $lightgray;
+                    font-size: 3.5em;
+                }
+                &:after {
+                    content: "\201D";
+                    right: 0;
+                }
+            }
+            p.source {
+                padding: $spacefix 0 0 $spacefix;
+                span {
+                    display: block;
+                }
+            }
+        }
+        h1.headline {
+            text-align: center;
+            color: $red;
+            margin: $spacefix*3 0 $spacefix;
+        }
+        div.block {
+            display: flex;
+            article {
+                margin: $spacefix*2 0;
+                padding: 0 $spacefix*1.5;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+            h2 {
+                color: #999;
+                font-size: 1em;
+                border-bottom: 1px solid;
+                padding: 0 0 $spacefix/2;
+                margin: 0 0 $spacefix/2;
+            }
+        }
+    }
+}
+
+//iPad Mini landscape
+@media all and (max-width: 1024px) {
+
+}
+
+
+//iPhone 6
+@media all and (max-width: 414px) {
+
+}
+
+//iPad Mini landscape
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+
+}
+
+
+//iPad Mini Portrait
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6+ landscape
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6+ Portrait
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6 landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6 Portrait
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 5 landscape
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 5 Portrait
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+
+}

@@ -52,12 +52,13 @@ nav: 'na'
 
         <div id="contact">
             <h2><img src="{{assets}}/img/icon-03.png"><br>Contact</h2>
-            <h3>Allen Myland, Inc.</h3>
-            <p>515 Abbott Drive</p>
-            <p>Broomall, PA 19008</p>
+            <h3>{{contact.name}}</h3>
+            <p>{{contact.street}}</p>
+            <p>{{contact.city}}, {{contact.state}} {{contact.zip}}</p>
             <p>&nbsp;</p>
-            <p><i class="fa fa-phone fa-fw"></i> (610) 544-0571</p>
-            <p><i class="fa fa-print fa-fw"></i> (610) 544-5159</p>
+            <p><i class="fa fa-phone fa-fw"></i> {{contact.phone}}</p>
+            <p><i class="fa fa-print fa-fw"></i> {{contact.fax}}</p>
+            <p><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
             <h2 class="interested">Interested in Maintenance? Buying or Selling Equipment?</h2>
             <a href="#" class="btn">Request a Quote</a>
         </div>

@@ -4,3 +4,19 @@ slug: "contact"
 nav: "main"
 order: 4
 ---
+
+<div id="about" class="content">
+    <div class="holder">
+        <h1>{{contact.name}}</h1>
+        <div class="address">
+            <p>{{contact.street}}</p>
+            <p>{{contact.city}}, {{contact.state}} {{contact.zip}}</p>
+        </div>
+        <p>{{contact.phone}}</p>
+        <p>{{contact.fax}}</p>
+        <p><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+
+        {{>contact}}
+        
+    </div>
+</div>

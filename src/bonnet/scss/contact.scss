@@ -1,0 +1,68 @@
+// VARIABLES
+@import "src/bonnet/scss/_variables.scss";
+
+#contact.content {
+
+    .holder {
+
+        
+    }
+}
+
+//iPad Mini landscape
+@media all and (max-width: 1024px) {
+
+}
+
+
+//iPhone 6
+@media all and (max-width: 414px) {
+
+}
+
+//iPad Mini landscape
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+
+}
+
+
+//iPad Mini Portrait
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6+ landscape
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6+ Portrait
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6 landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6 Portrait
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 5 landscape
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 5 Portrait
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+
+}

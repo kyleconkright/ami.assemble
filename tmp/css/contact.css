@@ -1,0 +1,49 @@
+#alert {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 32px;
+  background: linear-gradient(to right, orange 0%, #c1232c 50%, orange 100%);
+  z-index: 99999;
+  display: none; }
+  #alert h2 {
+    text-align: center;
+    color: #f6f6f6; }
+
+#alert.success {
+  background: linear-gradient(to right, #111111 0%, #26272b 50%, #111111 100%); }
+
+#contact.content .holder {
+  display: flex; }
+  #contact.content .holder div.address {
+    flex: .5; }
+    #contact.content .holder div.address span.address {
+      margin: 0 0 16px;
+      display: block; }
+      #contact.content .holder div.address span.address a {
+        color: #b2b2b2;
+        text-decoration: underline;
+        font-size: .9em; }
+  #contact.content .holder div.contact-form {
+    flex: 1; }
+
+form[name="contact"] div.form-row {
+  width: 100%;
+  clear: both; }
+  form[name="contact"] div.form-row div.item {
+    float: left;
+    width: 50%;
+    margin: 0 0 8px; }
+    form[name="contact"] div.form-row div.item label {
+      display: block;
+      margin: 0 0 5.33333px;
+      color: #b2b2b2;
+      font-size: .85em; }
+    form[name="contact"] div.form-row div.item input[type=text], form[name="contact"] div.form-row div.item textarea, form[name="contact"] div.form-row div.item select {
+      width: 90%;
+      padding: 8px;
+      border: 1px solid #b2b2b2;
+      border-radius: 2px;
+      background: transparent; }
+    form[name="contact"] div.form-row div.item textarea {
+      height: 150px; }

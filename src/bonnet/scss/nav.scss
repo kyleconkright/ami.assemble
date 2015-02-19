@@ -48,6 +48,20 @@
         ul.sub-menu {
             font-size: .8em;
             background: white;
+            li {
+                font-style: italic;
+                letter-spacing: .05em;
+                span, a {
+                    font-weight: 700;
+                    font-size: 1.1em;
+                }
+                a {
+                    text-decoration: underline;
+                }
+            }
+            i {
+                color: $red;
+            }
         }
     }
 }

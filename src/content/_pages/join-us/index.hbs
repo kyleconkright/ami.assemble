@@ -4,3 +4,14 @@ slug: "join-us"
 nav: "main"
 order: 5
 ---
+
+<div id="joinus" class="content">
+    <div class="holder">
+        <h2>{{joinus.headline}}</h2>
+        {{#each joinus.section}}
+        <p class="title">{{title}}</p>
+        <p class="copy">{{copy}}</p>
+        {{/each}}
+        <a href="../contact" class="tag">{{joinus.tag}}</a>
+    </div>
+</div>

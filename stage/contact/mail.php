@@ -1,17 +1,16 @@
 <?php
 
+    $message = "Interest: ".$_POST['interest']."\n";
+    $message .= "Name: ".$_POST['name']."\n";
+    $message .= "Company: ".$_POST['company']."\n";
+    $message .= "Email: ".$_POST['email']."\n";
+    $message .= "Phone: ".$_POST['phone']."\n";
+    $message .= "Country: ".$_POST['country']."\n";
+    $message .= "Message: ".$_POST['message']."\n";
 
-$message = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.";
-$message .= " Nam iaculis pede ac quam. Etiam placerat suscipit nulla.";
-$message .= " Maecenas id mauris eget tortor facilisis egestas.";
-$message .= " Praesent ac augue sed enim aliquam auctor. Ut dignissim ultricies est.";
-$message .= " Pellentesque convallis tempor tortor. Nullam nec purus.";
+    $message = wordwrap($message, 70);
 
-// make sure each line doesn't exceed 70 characters
-$message = wordwrap($message, 70);
+    $subject = $_POST['interest'];
 
-$subject = $_POST['subject'];
-
-// send email
-mail('kyleconkright@gmail.com', $subject, $message);
+    mail('kyleconkright@gmail.com', $subject, $message);
 ?>

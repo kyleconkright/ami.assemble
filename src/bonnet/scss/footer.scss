@@ -2,7 +2,7 @@
 @import "src/bonnet/scss/_variables.scss";
 
 div.border {
-    background: linear-gradient(to right, #22ad3c 0%,#2989d8 33%,#7ece29 66%,#7db9e8 100%);
+    background: $gradient;
     height: 4px;
 }
 

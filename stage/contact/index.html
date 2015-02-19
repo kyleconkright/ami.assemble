@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../assets//css/global.css">
 </head>
 <body>
+    <div id="alert"><h2></h2></div>
     <div id="container" class="frame">
 
                 <div id="menu">
@@ -38,7 +39,7 @@
                 </ul>
 
                 <ul class="sub-menu">
-                    <li>Worry-free EMC &amp; Hitachi maintenance</li>
+                    <li><i class="fa fa-caret-right"></i> Give us a call at <span>(610) 544-0571</span> or write to <a href="mailto:onlinesales@allenmyland.com">onlinesales@allenmyland.com</a></li>
                 </ul>
             </div>
         </div>
@@ -47,32 +48,86 @@
 
 
 
-<div id="about" class="content">
+<div id="contact" class="content">
     <div class="holder">
-        <h1>Allen Myland, Inc</h1>
         <div class="address">
-            <p>515 Abbott Drive</p>
-            <p>Broomall, PA 19008</p>
+            <h1>Allen Myland, Inc</h1>
+            <span class="address">
+                <p>515 Abbott Drive</p>
+                <p>Broomall, PA 19008</p>
+                <a href="https://goo.gl/maps/BRKj0" target="_blank">Google Map</a>
+            </span>
+            <p><i class="fa fa-phone fa-fw"></i> (610) 544-0571</p>
+            <p><i class="fa fa-print fa-fw"></i> (610) 544-5159</p>
+            <p><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:onlinesales@allenmyland.com"> onlinesales@allenmyland.com</a></p>
+
         </div>
-        <p>(610) 544-0571</p>
-        <p>(610) 544-5159</p>
-        <p><a href="mailto:onlinesales@allenmyland.com">onlinesales@allenmyland.com</a></p>
-
-        
+        <div class="contact-form">
+            
 <form name="contact" action="">
-    <label for="name" id="name_label">Name</label>
-    <input type="text" name="name" id="name" size="30" value="" class="text-input" />
 
-    <label for="email" id="email_label">Email</label>
-    <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+    <div class="form-row">
+        <div class="item">
+            <label for="name">Name</label>
+            <input type="text" name="name" />
+        </div>
+        <div class="item">
+            <label for="company">Company</label>
+            <input type="text" name="company" />
+        </div>
+    </div>
 
-    <label for="subject" id="phone_label">Subject</label>
-    <input type="text" name="subject" id="subject" size="30" value="" class="text-input" />
+    <div class="form-row">
+        <div class="item">
+            <label for="email">Email</label>
+            <input type="text" name="email" />
+        </div>
+        <div class="item">
+            <label for="confirm_email">Confirm Email</label>
+            <input type="text" name="confirm_email" />
+        </div>
+    </div>
 
-    <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+    <div class="form-row">
+        <div class="item">
+            <label for="interest">Subject</label>
+            <select name="interest">
+                <option value="empty" selected disabled>I am interested in...</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="Buying Equipment">Buying Equipment</option>
+                <option value="Selling Equipment">Selling Equipment</option>
+                <option value="General Inquiries">General Inquiries</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="item">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" />
+        </div>
+
+        <div class="item">
+            <label for="country">Country</label>
+            <input type="text" name="country" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="item">
+            <label for="message">Message</label>
+            <textarea type="text" name="message"/></textarea>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="item">
+            <input type="submit" name="submit" class="btn" value="Send" />
+        </div>
+    </div>
 </form>
 
-        
+        </div>
     </div>
 </div>
 

@@ -5,18 +5,22 @@ nav: "main"
 order: 4
 ---
 
-<div id="about" class="content">
+<div id="contact" class="content">
     <div class="holder">
-        <h1>{{contact.name}}</h1>
         <div class="address">
-            <p>{{contact.street}}</p>
-            <p>{{contact.city}}, {{contact.state}} {{contact.zip}}</p>
-        </div>
-        <p>{{contact.phone}}</p>
-        <p>{{contact.fax}}</p>
-        <p><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+            <h1>{{contact.name}}</h1>
+            <span class="address">
+                <p>{{contact.street}}</p>
+                <p>{{contact.city}}, {{contact.state}} {{contact.zip}}</p>
+                <a href="https://goo.gl/maps/BRKj0" target="_blank">Google Map</a>
+            </span>
+            <p><i class="fa fa-phone fa-fw"></i> {{contact.phone}}</p>
+            <p><i class="fa fa-print fa-fw"></i> {{contact.fax}}</p>
+            <p><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:{{contact.email}}"> {{contact.email}}</a></p>
 
-        {{>contact}}
-        
+        </div>
+        <div class="contact-form">
+            {{>contact}}
+        </div>
     </div>
 </div>

@@ -1,0 +1,11 @@
+#joinus.content .holder {
+  text-align: center; }
+  #joinus.content .holder p.title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 32px 0 8px; }
+  #joinus.content .holder a.tag {
+    color: #c1232c;
+    margin: 32px 0 0;
+    display: inline-block;
+    font-weight: 700; }

@@ -1,11 +1,23 @@
 // VARIABLES
 @import "src/bonnet/scss/_variables.scss";
 
-#contact.content {
-
+#joinus.content {
     .holder {
-
-        
+        text-align: center;
+        p.title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: $spacefix*2 0 $spacefix/2;
+        }
+        p.copy {
+            // margin: $spacefix/2 0 $spacefix*2;
+        }
+        a.tag {
+            color: $red;
+            margin: $spacefix*2 0 0;
+            display: inline-block;
+            font-weight: 700;
+        }
     }
 }
 

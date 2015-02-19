@@ -16,43 +16,65 @@ $(document).ready(function() {
         }]
     });
 
+    var modal = $('#alert');
+    function modalDrop(a) {
+        modal.removeClass('success').slideDown().delay(1500).fadeOut(250);
+        modal.find('h2').text(a);
+    }
 
-    $(".button").on('click', function(e) {
+    $("form .btn").on('click', function(e) {
+        e.preventDefault();
 
-        var name = $("input#name").val();
+        var name = $("input[name='name']").val();
         if (name == "") {
-            $("input#name").focus();
+            $("input[name='name']").focus();
+            modalDrop('Please Enter a Name');
             return false;
         }
-        var email = $("input#email").val();
-        if (email == "") {
-            $("input#email").focus();
+        var email = $("input[name='email']").val();
+        var emailReg = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+        var valid = emailReg.test(email);
+        if (!valid) {
+            $("input[name='email']").focus();
+            modalDrop('Please Enter a Valid Email')
             return false;
         }
-        var phone = $("input#phone").val();
+
+        var confirm_email = $("input[name='confirm_email']").val();
+        var phone = $("input[name='phone']").val();
+        if (email != confirm_email) {
+            $("input[name='email']").focus();
+            modalDrop('Double check your email. They don\'t seem to match');
+            return false;
+        }
+
+        var phone = $("input[name='phone']").val();
         if (phone == "") {
-            $("input#phone").focus();
+            $("input[name='phone']").focus();
+            modalDrop('Please Enter a Phone Number')
             return false;
         }
+
+        var message = $("textarea[name='message']").val();
+        if (message == "") {
+            $("textarea[name='message']").focus();
+            modalDrop('Let us know why you\'re writing.')
+            return false;
+        }
+
         var dataString = $('form[name="contact"]').serialize();
-        // alert (dataString);return false;
+
         $.ajax({
             type: "POST",
             url: "../contact/mail.php",
             data: dataString,
             success: function() {
-                $('#contact_form').html("<div id='message'></div>");
-                $('#message').html("<h2>Contact Form Submitted!</h2>")
-                .append("<p>We will be in touch soon.</p>")
-                .hide()
-                .fadeIn(1500, function() {
-                    $('#message').append("<img id='checkmark' src='images/check.png' />");
-                });
+                modalDrop('Thanks! We\'ll be in touch!');
+                modal.addClass('success');
             }
         });
-        e.preventDefault();
     });
 
 
 
-});
+}); //end jquery

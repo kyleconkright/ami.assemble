@@ -43,11 +43,12 @@ h3 {
   font-family: Montserrat;
   color: #f6f6f6;
   font-weight: 900;
-  padding: 18.4px 24px;
+  padding: 10.66667px 16px;
   background: #c1232c;
   border-radius: 2px 20px 2px 20px;
   text-transform: uppercase;
-  display: inline-block; }
+  display: inline-block;
+  border: none; }
 
 #container {
   max-width: 1280px;

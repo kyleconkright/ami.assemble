@@ -36,6 +36,16 @@
     #menu div.nav ul.sub-menu {
       font-size: .8em;
       background: white; }
+      #menu div.nav ul.sub-menu li {
+        font-style: italic;
+        letter-spacing: .05em; }
+        #menu div.nav ul.sub-menu li span, #menu div.nav ul.sub-menu li a {
+          font-weight: 700;
+          font-size: 1.1em; }
+        #menu div.nav ul.sub-menu li a {
+          text-decoration: underline; }
+      #menu div.nav ul.sub-menu i {
+        color: #c1232c; }
 
 @media all and (max-width: 414px) {
   #menu {

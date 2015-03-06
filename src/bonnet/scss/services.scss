@@ -2,7 +2,7 @@
 @import "src/bonnet/scss/_variables.scss";
 
 #services.content {
-    // width: 80%;
+
     .holder {
         display: flex;
         flex-wrap: wrap;
@@ -26,16 +26,10 @@
     }
 }
 
-//iPad Mini landscape
-@media all and (max-width: 1024px) {
-
-}
 
 
-//iPhone 6
-@media all and (max-width: 414px) {
 
-}
+
 
 //iPad Mini landscape
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {

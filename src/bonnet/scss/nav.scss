@@ -64,41 +64,7 @@
             }
         }
     }
-}
-
-
-
-
-
-
-@media all and (max-width: 414px) {
-
-    #menu {
-        flex-direction: column;
-        div.logo {
-            width: 100%;
-            margin: 0;
-            height: $menuheight/2;
-            background: $red url('../../assets/img/ami-logo-white-mobile.svg') no-repeat center;
-            background-size: contain;
-        }
-        div.nav {
-            ul {
-                justify-content: space-around;
-                li {
-                    text-align: center;
-                    margin: 0;
-                }
-            }
-        }
-    }
-}
-
-
-
-@media all and (max-width: 320px) {
-
-    #menu {
-        font-size: .7em;
+    .mobile-menu-trigger {
+        display: none;
     }
 }

@@ -51,10 +51,10 @@
     #masthead {
         div {
             width: 100%;
-            background: #333 !important;
             div.info {
                 padding: 4%;
                 width: 100%;
+                background: rgba(0,0,0,.5);
             }
         }
     }
@@ -66,9 +66,9 @@
     #masthead {
         height: auto;
         div {
-            background: #333 !important;
-            div.info {
 
+            div.info {
+                
                 h1 {
                     font-size: 2em;
                 }

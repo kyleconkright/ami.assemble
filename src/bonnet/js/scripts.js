@@ -1,8 +1,21 @@
 $(document).ready(function() {
 
+    $('.mobile-menu-trigger').on('click', function(){
+        if ($(this).hasClass('open')) {
+            $('div.nav .main-menu').slideDown('fast');
+            $(this).removeClass('open');
+            $(this).html('<i class="fa fa-chevron-up"></i>');
+        } else {
+            $('div.nav .main-menu').slideUp(100);
+            $(this).addClass('open');
+            $(this).html('<i class="fa fa-bars"></i>');
+        }
+    });
+
 
     $('#masthead').slick({
         autoplay: true,
+        autoplaySpeed: 6000,
         dots: true,
         pauseOnDotsHover: true,
         arrows: false,

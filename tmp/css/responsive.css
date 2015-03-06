@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 95%; }
+
+  #home.content div.holder {
+    flex-direction: column; }
+    #home.content div.holder div {
+      margin: 0 0 64px; }
+    #home.content div.holder div#services {
+      border-width: 0; }
+
+  footer div.content {
+    flex-direction: column; }
+    footer div.content ul.main-menu {
+      margin: 0 0 32px; } }
+@media screen and (max-width: 768px) {
+  div.content {
+    width: 95% !important; } }
+@media screen and (max-width: 736px) {
+  div#welcome div.holder {
+    width: 100%; } }
+@media screen and (max-width: 667px) {
+  div#menu {
+    flex-direction: column;
+    position: relative; }
+    div#menu div.logo {
+      width: 100%;
+      height: 66.66667px;
+      margin: 0;
+      background: #c1232c url("../img/ami-logo-white-mobile.svg") no-repeat center;
+      background-size: contain; }
+    div#menu div.nav {
+      height: auto;
+      display: block; }
+      div#menu div.nav ul {
+        display: block;
+        padding: 10.66667px 0; }
+        div#menu div.nav ul li {
+          padding: 5.33333px 0;
+          margin: 0;
+          text-align: center; }
+      div#menu div.nav ul.main-menu {
+        display: none; }
+    div#menu .mobile-menu-trigger {
+      display: block;
+      padding: 10px;
+      color: white;
+      font-size: 1.25em;
+      position: absolute;
+      z-index: 99999;
+      right: 33.33333px;
+      top: 10px; }
+
+  #services.content div.holder {
+    display: block; }
+    #services.content div.holder article {
+      width: 100%; }
+
+  #supported-equipment.content div.holder ul.machine li {
+    width: 100%; }
+
+  #about.content .holder blockquote {
+    font-size: .8em; }
+  #about.content .holder div.block {
+    display: block; }
+    #about.content .holder div.block article {
+      width: 100%; }
+
+  #contact.content .holder {
+    display: block; }
+    #contact.content .holder div.address {
+      text-align: center;
+      margin: 0 0 32px; }
+    #contact.content .holder div.contact-form {
+      margin: 0 0 32px; } }
+@media screen and (max-width: 375px) {
+  #contact.content .holder div.contact-form div.form-row div.item {
+    width: 100%;
+    margin: 0 0 8px; }
+    #contact.content .holder div.contact-form div.form-row div.item input, #contact.content .holder div.contact-form div.form-row div.item textarea, #contact.content .holder div.contact-form div.form-row div.item select {
+      width: 100%; } }

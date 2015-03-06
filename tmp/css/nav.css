@@ -46,21 +46,5 @@
           text-decoration: underline; }
       #menu div.nav ul.sub-menu i {
         color: #c1232c; }
-
-@media all and (max-width: 414px) {
-  #menu {
-    flex-direction: column; }
-    #menu div.logo {
-      width: 100%;
-      margin: 0;
-      height: 50px;
-      background: #c1232c url("../../assets/img/ami-logo-white-mobile.svg") no-repeat center;
-      background-size: contain; }
-    #menu div.nav ul {
-      justify-content: space-around; }
-      #menu div.nav ul li {
-        text-align: center;
-        margin: 0; } }
-@media all and (max-width: 320px) {
-  #menu {
-    font-size: .7em; } }
+  #menu .mobile-menu-trigger {
+    display: none; }

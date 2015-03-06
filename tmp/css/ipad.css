@@ -1,0 +1,18 @@
+@media only screen and (max-device-width: 1024px) {
+  .content {
+    width: 95%; }
+
+  footer div.content {
+    flex-direction: column; }
+    footer div.content ul.main-menu {
+      margin: 0 0 32px; } }
+@media only screen and (max-device-width: 600px) {
+  #services.content .holder {
+    flex-direction: column; }
+    #services.content .holder article {
+      width: 100%; }
+
+  footer div.content ul.main-menu li {
+    display: block;
+    text-align: center;
+    margin: 0 0 8px; } }

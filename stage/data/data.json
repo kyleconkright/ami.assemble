@@ -45,12 +45,6 @@
             "list": [
                 {"entry":
                     {
-                        "title":"VMAX",
-                        "more":[]
-                    }
-                },
-                {"entry":
-                    {
                         "title":"EMC",
                         "more":["VMAX","DMX3 & DMX4","Symmetrix","CX3 & CX4","Clariion"]
                     }

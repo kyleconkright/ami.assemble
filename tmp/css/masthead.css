@@ -37,15 +37,13 @@
 
 @media all and (max-width: 1024px) {
   #masthead div {
-    width: 100%;
-    background: #333 !important; }
+    width: 100%; }
     #masthead div div.info {
       padding: 4%;
-      width: 100%; } }
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5); } }
 @media all and (max-width: 414px) {
   #masthead {
     height: auto; }
-    #masthead div {
-      background: #333 !important; }
-      #masthead div div.info h1 {
-        font-size: 2em; } }
+    #masthead div div.info h1 {
+      font-size: 2em; } }

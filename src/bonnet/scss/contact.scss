@@ -1,0 +1,131 @@
+// VARIABLES
+@import "src/bonnet/scss/_variables.scss";
+
+#alert {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: $spacefix*2;
+    background: $gradient2;
+    z-index: 99999;
+    display: none;
+    h2 {
+        text-align: center;
+        color: $white;
+    }
+}
+
+#alert.success {
+    background: $gradient3;
+}
+
+#contact.content {
+
+    .holder {
+        display: flex;
+        div.address {
+            flex: .5;
+            span.address {
+                margin: 0 0 $spacefix;
+                display: block;
+                a {
+                    color: $light*.75;
+                    text-decoration: underline;
+                    font-size: .9em;
+                }
+            }
+        }
+        div.contact-form {
+            flex: 1;
+        }
+    }
+}
+
+
+form[name="contact"] {
+
+    div.form-row {
+        width: 100%;
+        clear: both;
+        div.item {
+            float: left;
+            width: 50%;
+            margin: 0 0 $spacefix/2;
+            label {
+                display: block;
+                margin: 0 0 $spacefix/3;
+                color: $light*.75;
+                font-size: .85em;
+            }
+            input[type=text], textarea, select {
+                width: 90%;
+                padding: $spacefix/2;
+                border: 1px solid $light*.75;
+                border-radius: 2px;
+                background: transparent;
+            }
+            textarea {
+                height: 150px;
+            }
+        }
+    }
+
+}
+
+//iPad Mini landscape
+@media all and (max-width: 1024px) {
+
+}
+
+
+//iPhone 6
+@media all and (max-width: 414px) {
+
+}
+
+//iPad Mini landscape
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+
+}
+
+
+//iPad Mini Portrait
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6+ landscape
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6+ Portrait
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 6 landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 6 Portrait
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+}
+
+
+//iPhone 5 landscape
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+
+}
+
+
+//iPhone 5 Portrait
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+
+}

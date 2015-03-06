@@ -1,0 +1,160 @@
+// VARIABLES
+@import "src/bonnet/scss/_variables.scss";
+
+//ipad landscape and down
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 95%;
+    }
+    #home.content {
+        div.holder {
+            flex-direction: column;
+            div {
+                // width: 100%;
+                margin: 0 0 $spacefix*4;
+            }
+            div#services {
+                border-width: 0;
+            }
+        }
+    }
+    footer {
+        div.content {
+            flex-direction: column;
+            ul.main-menu {
+                margin: 0 0 $spacefix*2;
+            }
+        }
+    }
+}
+
+//ipad portrait and down
+@media screen and (max-width: 768px) {
+    div.content {
+        width: 95% !important;
+    }
+}
+
+//iphone 6+ landscape and down
+@media screen and (max-width: 736px) {
+    div#welcome {
+        div.holder {
+            width: 100%;
+        }
+    }
+}
+
+
+//iphone 6 landscape and down
+@media screen and (max-width: 667px) {
+    div#menu {
+        flex-direction: column;
+        position: relative;
+        div.logo {
+            width: 100%;
+            height: $menuheight/1.5;
+            margin: 0;
+            background: $red url('../img/ami-logo-white-mobile.svg') no-repeat center;
+            background-size: contain;
+        }
+        div.nav {
+            height: auto;
+            display: block;
+            ul {
+                display: block;
+                padding: $spacefix/1.5 0;
+                li {
+                    padding: $spacefix/3 0;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+            ul.main-menu {
+                display: none;
+            }
+        }
+        .mobile-menu-trigger {
+            display: block;
+            padding: 10px;
+            color: white;
+            font-size: 1.25em;
+            position: absolute;
+            z-index: 99999;
+            right: $menuheight/3;
+            top: 10px;
+        }
+    }
+    #services.content {
+        div.holder {
+            display: block;
+            article {
+                width: 100%;
+            }
+
+        }
+    }
+    #supported-equipment.content {
+        div.holder {
+            ul.machine {
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #about.content {
+        .holder {
+            blockquote {
+                font-size: .8em;
+            }
+            div.block {
+                display: block;
+                article {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #contact.content {
+        .holder {
+            display: block;
+            div.address {
+                text-align: center;
+                margin: 0 0 $spacefix*2;
+            }
+            div.contact-form {
+                margin: 0 0 $spacefix*2;
+            }
+        }
+    }
+}
+
+
+//iphone 6+ portrait and down
+@media screen and (max-width: 375px) {
+    #contact.content {
+        .holder {
+            div.contact-form {
+                div.form-row {
+                    div.item {
+                        width: 100%;
+                        margin: 0 0 $spacefix/2;
+                        input, textarea, select {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//iphone 5 portrait and down
+@media screen and (max-width: 320px) {
+    div#menu {
+        .mobile-menu-trigger {
+
+        }
+    }
+}

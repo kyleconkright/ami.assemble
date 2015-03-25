@@ -19,7 +19,7 @@ nav: 'na'
 <div id="home" class="content">
     <div class="holder">
         <div id="products">
-            <h2><img src="{{assets}}/img/icon-01.png"><br>{{homeContent.0.title}}</h2>
+            <h2><img src="{{assets}}/img/icon-01.png"><br><a href="../supported-equipment">{{homeContent.0.title}}</a></h2>
             <ul>
             {{# each homeContent.0.list}}
                 <li><h3>{{entry.title}}</h3></li>
@@ -35,7 +35,7 @@ nav: 'na'
         </div>
 
         <div id="services">
-            <h2><img src="{{assets}}/img/icon-02.png"><br>{{homeContent.1.title}}</h2>
+            <h2><img src="{{assets}}/img/icon-02.png"><br><a href="../services">{{homeContent.1.title}}</a></h2>
             <ul>
             {{# each homeContent.1.list}}
                 <li><h3>{{entry.title}}</h3></li>
@@ -51,7 +51,7 @@ nav: 'na'
         </div>
 
         <div id="contact">
-            <h2><img src="{{assets}}/img/icon-03.png"><br>Contact</h2>
+            <h2><img src="{{assets}}/img/icon-03.png"><br><a href="../contact">Contact</a<</h2>
             <h3>{{contact.name}}</h3>
             <p>{{contact.street}}</p>
             <p>{{contact.city}}, {{contact.state}} {{contact.zip}}</p>

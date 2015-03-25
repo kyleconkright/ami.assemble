@@ -12,5 +12,5 @@
 
     $subject = $_POST['interest'];
 
-    mail('onlinesales@allenmyland.com', $subject, $message);
+    mail('kyleconkright@gmail.com', $subject, $message);
 ?>

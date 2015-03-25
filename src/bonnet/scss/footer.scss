@@ -16,12 +16,12 @@ footer {
         align-items: center;
         padding: $spacefix/2 0;
         div.logo {
-            background: url('../img/ami-logo-white-mobile.svg') no-repeat top left;
+            background: url('../img/ami-logo-white-mobile.png') no-repeat center left;
             width: 65px;
             height: 60px;
             background-size: contain;
             border-width: 0 1px 0 0;
-            margin: -5px $spacefix/2 0;
+            margin: -5px $spacefix/2 5px;
             opacity: .35;
         }
         ul.main-menu {

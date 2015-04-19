@@ -1,7 +1,7 @@
 #menu {
   display: flex; }
   #menu div.logo {
-    background: #c1232c url("../img/ami-logo-white.png") no-repeat center;
+    background: #C1232C url("../img/ami-logo-white.png") no-repeat center;
     width: 150px;
     height: 120px;
     background-size: 75%;
@@ -25,14 +25,14 @@
       #menu div.nav ul li {
         margin: 0 0 0 24px; }
       #menu div.nav ul .active {
-        color: #c1232c; }
+        color: #C1232C; }
     #menu div.nav ul.main-menu {
       background: #eaeaea; }
       #menu div.nav ul.main-menu li a {
         font-weight: 700;
         transition: color .1s linear; }
         #menu div.nav ul.main-menu li a:hover {
-          color: #c1232c; }
+          color: #C1232C; }
     #menu div.nav ul.sub-menu {
       font-size: .8em;
       background: white; }
@@ -45,6 +45,8 @@
         #menu div.nav ul.sub-menu li a {
           text-decoration: underline; }
       #menu div.nav ul.sub-menu i {
-        color: #c1232c; }
+        color: #C1232C; }
   #menu .mobile-menu-trigger {
     display: none; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -7,19 +7,33 @@
         display: flex;
         flex-wrap: wrap;
         article {
-            width: 50%;
+            width: 80%;
+            margin: 0 auto $spacefix*2;
             padding: 0 $space*2;
             h2 {
                 margin: 0 0 $spacefix;
             }
             p {
-                margin: 0 0 $spacefix*2;
+                margin: 0 0 $spacefix;
+                font-size: 1.1em;
             }
-            div {
-                p {
+            ul {
+                width: 90%;
+                margin: $spacefix*2 auto;
+                li {
+                    margin: 0 0 $spacefix;
+                    list-style-type: square;
                     b {
                         font-weight: 700;
                     }
+                }
+            }
+        }
+        article:last-of-type {
+            ul {
+                width: 100%;
+                li {
+                    list-style-type: none;
                 }
             }
         }

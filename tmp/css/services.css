@@ -2,11 +2,25 @@
   display: flex;
   flex-wrap: wrap; }
   #services.content .holder article {
-    width: 50%;
+    width: 80%;
+    margin: 0 auto 32px;
     padding: 0 4%; }
     #services.content .holder article h2 {
       margin: 0 0 16px; }
     #services.content .holder article p {
-      margin: 0 0 32px; }
-    #services.content .holder article div p b {
-      font-weight: 700; }
+      margin: 0 0 16px;
+      font-size: 1.1em; }
+    #services.content .holder article ul {
+      width: 90%;
+      margin: 32px auto; }
+      #services.content .holder article ul li {
+        margin: 0 0 16px;
+        list-style-type: square; }
+        #services.content .holder article ul li b {
+          font-weight: 700; }
+  #services.content .holder article:last-of-type ul {
+    width: 100%; }
+    #services.content .holder article:last-of-type ul li {
+      list-style-type: none; }
+
+/*# sourceMappingURL=services.css.map */

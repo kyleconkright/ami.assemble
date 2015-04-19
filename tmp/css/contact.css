@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   padding: 32px;
-  background: linear-gradient(to right, orange 0%, #c1232c 50%, orange 100%);
+  background: linear-gradient(to right, orange 0%, #C1232C 50%, orange 100%);
   z-index: 99999;
   display: none; }
   #alert h2 {
@@ -11,7 +11,7 @@
     color: #f6f6f6; }
 
 #alert.success {
-  background: linear-gradient(to right, #111111 0%, #26272b 50%, #111111 100%); }
+  background: linear-gradient(to right, #111 0%, #26272b 50%, #111 100%); }
 
 #contact.content .holder {
   display: flex; }
@@ -47,3 +47,5 @@ form[name="contact"] div.form-row {
       background: transparent; }
     form[name="contact"] div.form-row div.item textarea {
       height: 150px; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -22,14 +22,14 @@
         {
             "src":"image06.jpg",
             "title":"Supported SAN Hardware",
-            "copy":"EMC Symmetrix, EMC Clariion, Hitachi Data Systems, Hitachi Data Systems Thunder/Freedom Series, Hewlett Packard StrorageWorks, SUN/Oracle StorEdge, EMC Connectrix, McData, Brocade.",
-            "href":"#"
+            "copy":"VMAX, DMX4, DMX3, EMC Symmetrix, Calriion, CX-4, CX-3, Hitachi VSP, USPV, USP, AMS2500, HP Storage Works P9500, SUN SE9990V",
+            "href":"/supported-equipment"
         },
         {
             "src":"image10.jpg",
             "title":"Global Reach",
             "copy":"AMI supports customers in all 50 states and 12 countries. Our extensive network of partners allows AMI to provide support in over 150 countries worldwide.",
-            "href":"#"
+            "href":"/about"
         },
         {
             "src":"image07.jpg",

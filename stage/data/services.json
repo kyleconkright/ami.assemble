@@ -1,42 +1,45 @@
 {
     "section":[
         {
-            "title":"Responsiveness",
-            "copy":"AMI provides customers with comprehensive support and maintenance of data processing equipment. Customers receive outstanding and responsive service at a fraction of the OEM cost.",
+            "title":"Worry Free EMC and Hitachi Maintenance!",
+            "copy":"Partnering with AMI for EMC and Hitachi maintenance ensures you a personal level of hardware support unmatched by the OEM at a 40-70% savings.",
             "entry":[
                 {
-                    "title":"Service 24/7/365",
-                    "copy":"Customers are provided with service 24 hours a day, 365 days a year. In the event of a failure, a trained engineer is dispatched to the customer’s site unless the problem can be resolved remotely."
+                    "title":"24/7/365 live personal support",
+                    "copy":" maximizes uptime and reduces outages."
                 },
                 {
-                    "title":"Spares & Logistics",
-                    "copy":" AMI’s service includes all replacement parts required to correct hardware issues. Spare parts are strategically located near major metropolitan areas allowing AMI to respond to equipment failures in a timely manner. AMI ensures that commonly used parts are stored on-site thereby enabling a rapid response."
+                    "title":"A choice of SLAs",
+                    "copy":" to tailor the specific needs and cost savings of your organization, from next business day (NBD) to 4-hour onsite support."
                 },
                 {
-                    "title":"Upgrades",
-                    "copy":" AMI maintains an extensive inventory of parts and systems to meet our customers' growth requirements. Whether upgrading existing equipment or adding additional equipment, AMI is the answer."
+                    "title":"24/7/365 proactive monitoring",
+                    "copy":" with daily system reporting and weekly SAN integrity checks by hardware engineers to ensure optimal performance."
                 },
                 {
-                    "title":"Remote Support",
-                    "copy":"Customers have the added security of the AMI remote support facility. EMC, Hitachi, HP and SUN systems are continuously monitored for errors and upon detection, the system dials home to AMI. The remote support facility captures the information and provides immediate error notification to a support engineer."
+                    "title":"Remote inbound support",
+                    "copy":" by Level 3 engineers to diagnose and correct SAN issues that may be outside the scope of a basic FRU replacement"
+                },
+                {
+                    "title":"An online spares",
+                    "copy":" kit or a local parts depot"
+                },
+                {
+                    "title":"Storage upgrades and implementation",
+                    "copy":" to help fulfill your expansion plans. AMI maintains an extensive inventory of parts and systems to meet our customers' growth requirements. Don’t waste additional capital buying new when you can expand your existing storage platform."
+                },
+                {
+                    "title":"AMI has an expansive global reach",
+                    "copy":" to support clients throughout the United States, Canada, South America, Western Europe, Asia Pacific and Australia."
                 }
             ]
         },
         {
-            "title":"Reliable",
-            "copy":"AMI's support center is located in proximity to Philadelphia, Pennsylvania. It is staffed with highly trained engineers committed to serving customers 24 hours a day, 365 days a year. The support center is equipped with multiple, redundant and offsite systems that insure the continuous monitoring of all equipment in any emergency.",
+            "title":"Increase ROI by lowering the cost of maintenance",
+            "copy":"AMI supports EMC and Hitachi SAN products that have officially reached end of life, allowing your business to realize an additional return on investment by extending the product’s lifecycle.",
             "entry":[
                 {
-                    "title":"Global Support",
-                    "copy":"AMI supports customers in all 50 states and 12 countries. Our extensive network of partners allows AMI to provide support in over 150 countries worldwide."
-                },
-                {
-                    "title":"Technical Support",
-                    "copy":"Customers have 24/7/365 access to AMI’s engineers. A closed loop, time based escalation case tracking process is used to insure that system failures are resolved in a timely manner."
-                },
-                {
-                    "title":"Concurrent Maintenance",
-                    "copy":"Concurrent maintenance consists of repair actions that can be performed non-disruptively during normal equipment operations and I/O activity. A weekly preventative health check assures additional security."
+                    "copy":"When SAN hardware reaches Service-End-Of-Life, OEM sales reps will advise an immediate replacement, even if the system continues to function perfectly. AMI offers your business the ability to extend the lifespan of post warranty EMC and Hitachi equipment. Our maintenance services allow you to keep using equipment for as long as it continues to meet your business data needs, allowing you to divert cash savings to other strategic projects."
                 }
             ]
         }

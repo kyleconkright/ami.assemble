@@ -1,27 +1,33 @@
 {
-    "headline":"Experience. Cost Efficiency. Knowledge.",
-
-    "quote": {
-        "copy":"Our clients include global companies executing millions of transactions each day. We support their storage needs by providing knowledgable, comprehensive and reliable service while improving cost efficiency.",
-        "source":"Larry Allen",
-        "role":"President and Founder"
-    },
-
-    "section":[
+    "headline":"Since 1973...",
+    "about-copy":"Allen Myland, Inc is one of the longest running providers of data storage maintenance in the industry.  AMI was at the forefront of water-cooled mainframe technology in the early 70’s and 80’s.  In the 90’s, the company transitioned to supporting EMC and Hitachi storage arrays.  Headquartered just outside Philadelphia, AMI provides data storage hardware support to Fortune 500 and local companies looking to extend the lifespan of their post warranty storage systems.  Our expert-trained engineers provide EMC and Hitachi SAN support that will keep your critical business systems on line and dramatically reduce the total cost of ownership.",
+    
+    "why-ami-headline":"Why AMI?",
+    "why-ami-sub":"AMI delivers post warranty support and maintenance services that is designed to exceed the expectations of our customers with:",
+    "entry":[
         {
-            "title":"Experience",
-            "sub":"Three decades of industry leadership.",
-            "copy":"Founded in 1973, AMI focused on the tremendous growth potential associated with IBM mainframe technology. Although successful in this segment for more than two decades, AMI expanded its vision during the 90’s. Recognizing a need in data storage management for value oriented service, AMI leveraged its technical and business expertise to become an all-inclusive data storage maintenance provider."
+            "title":"Direct access to Level 3 engineers",
+            "copy":"means no call escalations to negotiate and minimizes the time to fix. A L3 engineer is oncall and available 24/7/365"
         },
         {
-            "title":"Cost Efficiency",
-            "sub":"Customized maintenance at reasonable rates.",
-            "copy":"AMI envisioned that both large and small companies throughout the world would be confronted with increased storage needs at escalating costs. Today, AMI provides a full range of customized maintenance services at reasonable rates. This is accomplished by working in cooperation with key partners in the information technology industry. From continuous maintenance and technology upgrades, to complete data center relocations, AMI has the experience, resources and advanced knowledge to support all system requirements."
+            "title":"No overseas call routing or help desk.",
+            "copy":"Once a ticket is issued, a local AMI support engineer will be your point of contact until the call is completed. "
         },
         {
-            "title":"Knowledge",
-            "sub":"Technical team providing rapid response service.",
-            "copy":"AMI's technical support team possesses the highest level of expertise to effectively diagnose and resolve problems and respond to inquiries at any hour. Through constant training, research and development, AMI maintains its position as the most knowledgeable and dependable data processing maintenance provider in the world."
+            "title":"Dedicated network of Support Engineers",
+            "copy":"have access to 95% of the US and Southern Canada.  We also support service contracts through channel partnerships in South America, Western Europe, Asia Pacific and Australia."
+        },
+        {
+            "title":"Industry leading call resolution times,",
+            "copy":"<15 min after hour call back for case openings, <30 min diagnosis for systems with inbound access."
+        },
+        {
+            "title":"Significant cost savings at 40-70% below OEM",
+            "copy":""
+        },
+        {
+            "title":"",
+            "copy":"We are really good at what we do!  AMI has been providing SAN support on emerging data processing technologies since 1973.  We support the data infrastructure of many of the companies you use everyday.  Let us show you why we have stood the test of time."
         }
     ]
 }

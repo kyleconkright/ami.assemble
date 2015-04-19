@@ -21,7 +21,7 @@ body, html {
 body {
   background: #f6f6f6;
   color: #26272b;
-  border-top: #c1232c 2px solid; }
+  border-top: #C1232C 2px solid; }
 
 h1, h2 {
   font-family: Montserrat; }
@@ -44,7 +44,7 @@ h3 {
   color: #f6f6f6;
   font-weight: 900;
   padding: 10.66667px 16px;
-  background: #c1232c;
+  background: #C1232C;
   border-radius: 2px 20px 2px 20px;
   text-transform: uppercase;
   display: inline-block;
@@ -59,3 +59,5 @@ h3 {
   width: 80%;
   margin: 0 auto;
   padding: 48px 0; }
+
+/*# sourceMappingURL=style.css.map */

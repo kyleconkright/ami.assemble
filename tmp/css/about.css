@@ -1,45 +1,14 @@
-#about.content .holder blockquote {
-  width: 75%;
-  margin: 0 auto 32px;
-  padding: 0 0 32px;
-  border: solid #dfe0dd;
-  border-width: 0 0 1px;
-  position: relative; }
-  #about.content .holder blockquote p.quote {
-    font-style: italic;
-    font-family: georgia, serif;
-    font-size: 1.5em;
-    line-height: 1.5em; }
-    #about.content .holder blockquote p.quote:before {
-      content: "\201C";
-      position: absolute;
-      left: -43px;
-      top: 15px;
-      color: #dfe0dd;
-      font-size: 3.5em; }
-    #about.content .holder blockquote p.quote:after {
-      content: "\201D";
-      right: 0; }
-  #about.content .holder blockquote p.source {
-    padding: 16px 0 0 16px; }
-    #about.content .holder blockquote p.source span {
-      display: block; }
-#about.content .holder h1.headline {
-  text-align: center;
-  color: #c1232c;
-  margin: 48px 0 16px; }
-#about.content .holder div.block {
-  display: flex; }
-  #about.content .holder div.block article {
-    margin: 32px 0;
-    padding: 0 24px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; }
-  #about.content .holder div.block h2 {
-    color: #999;
-    font-size: 1em;
-    border-bottom: 1px solid;
-    padding: 0 0 8px;
-    margin: 0 0 8px; }
+#about.content .holder h1 {
+  margin: 0 0 16px; }
+#about.content .holder #about-copy {
+  margin: 0 0 64px; }
+#about.content .holder #why-ami ul {
+  width: 90%;
+  margin: 32px auto; }
+  #about.content .holder #why-ami ul li {
+    margin: 0 0 16px;
+    list-style-type: square; }
+    #about.content .holder #why-ami ul li b {
+      font-weight: 700; }
+
+/*# sourceMappingURL=about.css.map */

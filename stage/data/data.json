@@ -17,7 +17,7 @@
             "src":"image11.jpg",
             "title":"Services 24/7/365",
             "copy":"AMI provides customers with comprehensive support and maintenance of data processing equipment. Customers receive outstanding and responsive service at a fraction of the OEM cost.",
-            "href":"#"
+            "href":"/services"
         },
         {
             "src":"image06.jpg",
@@ -35,7 +35,7 @@
             "src":"image07.jpg",
             "title":"Why AMI?",
             "copy":"Customers have 24/7/365 access to AMI’s engineers. A closed loop, time based escalation case tracking process is used to insure that system failures are resolved in a timely manner.",
-            "href":"#"
+            "href":"/about"
         }
     ],
     "homeContent" : [
